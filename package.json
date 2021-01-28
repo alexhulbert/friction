@@ -1,0 +1,29 @@
+{
+  "name": "smart-alarm-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhulbert/get-the-fuck-outta-bed.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexhulbert/get-the-fuck-outta-bed/issues"
+  },
+  "homepage": "https://github.com/alexhulbert/get-the-fuck-outta-bed#readme",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.1",
+    "fastify": "^3.11.0",
+    "naudiodon": "^2.3.2",
+    "serialport": "^9.0.6",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/naudiodon": "^2.1.0",
+    "@types/serialport": "^8.0.1",
+    "ts-node": "^9.1.1"
+  }
+}
